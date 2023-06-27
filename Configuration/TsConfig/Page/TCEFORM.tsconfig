@@ -33,5 +33,29 @@ TCEFORM {
                 }
             }
         }
+
+        header_link {
+            types {
+                ucph_ce_header {
+                    disabled = 1
+                }
+            }
+        }
+
+        date {
+            types {
+                ucph_ce_header {
+                    disabled = 1
+                }
+            }
+        }
+
+        colPos {
+            types {
+                ucph_ce_header {
+                    disabled = 1
+                }
+            }
+        }
     }
 }
