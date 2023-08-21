@@ -12,8 +12,8 @@
         <trans-unit id="ucph_ce_header_desc">
             <source>Adds a header only.</source>
         </trans-unit>
-        <trans-unit id="ucph_ce_header_internal_title">
-            <source>Internal title - not displayed in the frontend</source>
+        <trans-unit id="ucph_ce_header_default">
+            <source>Normal text - no semantic header</source>
         </trans-unit>
         <trans-unit id="ucph_ce_header_h6">
             <source>H6</source>

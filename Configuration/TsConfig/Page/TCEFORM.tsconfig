@@ -5,6 +5,7 @@ TCEFORM {
             // Remove h1 and hidden
             removeItems = 1, 100
             // Rename header layout items
+            altLabels.0 = LLL:EXT:ucph_ce_header/Resources/Private/Language/locallang_be.xlf:ucph_ce_header_default
             altLabels.2 = H2
             altLabels.3 = H3
             altLabels.4 = H4
