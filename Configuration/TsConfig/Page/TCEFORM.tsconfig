@@ -1,21 +1,17 @@
 TCEFORM {
     tt_content {
         header_layout {
-            types {
-                ucph_ce_header {
-                    // Remove h1 and hidden
-                    removeItems = 1, 100
-                    // Rename header layout items
-                    altLabels.2 = H2
-                    altLabels.3 = H3
-                    altLabels.4 = H4
-                    altLabels.5 = H5
-                     // Add items
-                    addItems.10 = LLL:EXT:ucph_ce_header/Resources/Private/Language/locallang_be.xlf:ucph_ce_header_h6
-                    addItems.150 = LLL:EXT:ucph_ce_header/Resources/Private/Language/locallang_be.xlf:ucph_ce_header_style
-                    addItems.170 = LLL:EXT:ucph_ce_header/Resources/Private/Language/locallang_be.xlf:ucph_ce_header_hidden
-                }
-            }
+            // Remove h1 and hidden
+            removeItems = 1, 100
+            // Rename header layout items
+            altLabels.2 = H2
+            altLabels.3 = H3
+            altLabels.4 = H4
+            altLabels.5 = H5
+                // Add items
+            addItems.10 = LLL:EXT:ucph_ce_header/Resources/Private/Language/locallang_be.xlf:ucph_ce_header_h6
+            addItems.150 = LLL:EXT:ucph_ce_header/Resources/Private/Language/locallang_be.xlf:ucph_ce_header_style
+            addItems.170 = LLL:EXT:ucph_ce_header/Resources/Private/Language/locallang_be.xlf:ucph_ce_header_hidden
         }
     }
 }

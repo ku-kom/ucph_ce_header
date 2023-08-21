@@ -29,6 +29,11 @@ call_user_func(function ($extKey ='ucph_ce_header', $contentType ='ucph_ce_heade
         $GLOBALS['TCA']['tt_content']['types'][$contentType] = [];
     }
 
+    // headers palette: change order of fields
+    $GLOBALS['TCA']['tt_content']['palettes']['headers'] = array(
+        'showitem' => 'header_layout, --linebreak--, header','canNotCollapse' => 1
+    );
+
     // Configure the default backend fields for the content element
     $GLOBALS['TCA']['tt_content']['types'][$contentType] = [
         'showitem' => '
@@ -51,3 +56,11 @@ call_user_func(function ($extKey ='ucph_ce_header', $contentType ='ucph_ce_heade
          ',
     ];
 });
+
+ // Override header palette globally
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addToAllTCAtypes(
+    'tt_content', 
+    'headers', 
+    '', 
+    'after:CType'
+);
