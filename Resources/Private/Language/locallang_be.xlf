@@ -15,6 +15,9 @@
         <trans-unit id="ucph_ce_header_internal_title">
             <source>Internal title - not displayed in the frontend</source>
         </trans-unit>
+        <trans-unit id="ucph_ce_header_h6">
+            <source>H6</source>
+        </trans-unit>
         <trans-unit id="ucph_ce_header_hidden">
             <source>Hidden</source>
         </trans-unit>

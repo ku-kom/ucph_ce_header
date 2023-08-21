@@ -3,57 +3,17 @@ TCEFORM {
         header_layout {
             types {
                 ucph_ce_header {
-                    // Remove h1
-                    removeItems = 0, 1, 100
+                    // Remove h1 and hidden
+                    removeItems = 1, 100
                     // Rename header layout items
                     altLabels.2 = H2
                     altLabels.3 = H3
                     altLabels.4 = H4
                     altLabels.5 = H5
-                    altLabels.6 = H6
-                    // Add items
+                     // Add items
+                    addItems.10 = LLL:EXT:ucph_ce_header/Resources/Private/Language/locallang_be.xlf:ucph_ce_header_h6
                     addItems.150 = LLL:EXT:ucph_ce_header/Resources/Private/Language/locallang_be.xlf:ucph_ce_header_style
                     addItems.170 = LLL:EXT:ucph_ce_header/Resources/Private/Language/locallang_be.xlf:ucph_ce_header_hidden
-                }
-            }
-        }
-
-        header_position {
-            types {
-                ucph_ce_header {
-                    disabled = 1
-                }
-            }
-        }
-
-        subheader {
-            types {
-                ucph_ce_header {
-                    disabled = 1
-                }
-            }
-        }
-
-        header_link {
-            types {
-                ucph_ce_header {
-                    disabled = 1
-                }
-            }
-        }
-
-        date {
-            types {
-                ucph_ce_header {
-                    disabled = 1
-                }
-            }
-        }
-
-        colPos {
-            types {
-                ucph_ce_header {
-                    disabled = 1
                 }
             }
         }
