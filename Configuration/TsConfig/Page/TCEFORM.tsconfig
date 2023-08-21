@@ -2,7 +2,9 @@ TCEFORM {
     tt_content {
         // Global settings
         header_layout {
-            // Remove h1 and hidden
+            // Rename label
+            label = LLL:EXT:ucph_ce_header/Resources/Private/Language/locallang_be.xlf:ucph_ce_header_type
+            // Remove h1 and 'hidden'
             removeItems = 1, 100
             // Rename header layout items
             altLabels.0 = LLL:EXT:ucph_ce_header/Resources/Private/Language/locallang_be.xlf:ucph_ce_header_default
@@ -10,9 +12,9 @@ TCEFORM {
             altLabels.3 = H3
             altLabels.4 = H4
             altLabels.5 = H5
-                // Add items
+            // Add items
             addItems.10 = LLL:EXT:ucph_ce_header/Resources/Private/Language/locallang_be.xlf:ucph_ce_header_h6
-            addItems.150 = LLL:EXT:ucph_ce_header/Resources/Private/Language/locallang_be.xlf:ucph_ce_header_style
+            addItems.150 = LLL:EXT:ucph_ce_header/Resources/Private/Language/locallang_be.xlf:ucph_ce_header_devider
             addItems.170 = LLL:EXT:ucph_ce_header/Resources/Private/Language/locallang_be.xlf:ucph_ce_header_hidden
         }
     }

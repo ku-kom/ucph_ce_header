@@ -12,6 +12,9 @@
         <trans-unit id="ucph_ce_header_desc">
             <source>Adds a header only.</source>
         </trans-unit>
+        <trans-unit id="ucph_ce_header_type">
+            <source>Header type</source>
+        </trans-unit>
         <trans-unit id="ucph_ce_header_default">
             <source>Normal text - no semantic header</source>
         </trans-unit>
@@ -21,7 +24,7 @@
         <trans-unit id="ucph_ce_header_hidden">
             <source>Hidden</source>
         </trans-unit>
-        <trans-unit id="ucph_ce_header_style">
+        <trans-unit id="ucph_ce_header_devider">
             <source>Header divider</source>
         </trans-unit>
         </body>
