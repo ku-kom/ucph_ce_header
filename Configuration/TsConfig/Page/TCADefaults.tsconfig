@@ -1,6 +1,6 @@
 TCAdefaults {
     tt_content {
         // DFefault header layout
-        header_layout = 3
+        header_layout = 170
     }
 }
