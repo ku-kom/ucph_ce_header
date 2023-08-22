@@ -22,7 +22,7 @@
             <source>H6</source>
         </trans-unit>
         <trans-unit id="ucph_ce_header_hidden">
-            <source>Hidden</source>
+            <source>Unset</source>
         </trans-unit>
         <trans-unit id="ucph_ce_header_devider">
             <source>Header divider</source>
