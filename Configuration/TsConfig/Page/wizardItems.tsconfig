@@ -2,16 +2,16 @@ mod.wizards.newContentElement.wizardItems {
   // add the content element to the tab "common"
   common {
     elements {
-      ucph_ce_header {
+      ucph_content_header {
         iconIdentifier = content-header
-        title = LLL:EXT:ucph_ce_header/Resources/Private/Language/locallang_be.xlf:ucph_ce_header_title
-        description = LLL:EXT:ucph_ce_header/Resources/Private/Language/locallang_be.xlf:ucph_ce_header_desc
+        title = LLL:EXT:ucph_content_header/Resources/Private/Language/locallang_be.xlf:ucph_content_header_title
+        description = LLL:EXT:ucph_content_header/Resources/Private/Language/locallang_be.xlf:ucph_content_header_desc
         tt_content_defValues {
-          CType = ucph_ce_header
+          CType = ucph_content_header
         }
       }
     }
-    show := addToList(ucph_ce_header)
+    show := addToList(ucph_content_header)
   }
 }
 
@@ -19,15 +19,15 @@ mod.wizards.newContentElement.wizardItems {
   // add the content element to the tab "Text"
   text {
     elements {
-      ucph_ce_header {
+      ucph_content_header {
         iconIdentifier = content-header
-        title = LLL:EXT:ucph_ce_header/Resources/Private/Language/locallang_be.xlf:ucph_ce_header_title
-        description = LLL:EXT:ucph_ce_header/Resources/Private/Language/locallang_be.xlf:ucph_ce_header_desc
+        title = LLL:EXT:ucph_content_header/Resources/Private/Language/locallang_be.xlf:ucph_content_header_title
+        description = LLL:EXT:ucph_content_header/Resources/Private/Language/locallang_be.xlf:ucph_content_header_desc
         tt_content_defValues {
-          CType = ucph_ce_header
+          CType = ucph_content_header
         }
       }
     }
-    show := addToList(ucph_ce_header)
+    show := addToList(ucph_content_header)
   }
 }

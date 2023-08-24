@@ -1,10 +1,10 @@
-tt_content.ucph_ce_header >
+tt_content.ucph_content_header >
 # CTYPE: Header
 
-tt_content.ucph_ce_header =< lib.contentElement
-tt_content.ucph_ce_header {
+tt_content.ucph_content_header =< lib.contentElement
+tt_content.ucph_content_header {
 	templateName = Header
-	templateRootPaths.100 = EXT:ucph_ce_header/Resources/Private/Templates/
-    partialRootPaths.100 = EXT:ucph_ce_header/Resources/Private/Partials/
-    layoutRootPaths.100 = EXT:ucph_ce_header/Resources/Private//Layouts/
+	templateRootPaths.100 = EXT:ucph_content_header/Resources/Private/Templates/
+    partialRootPaths.100 = EXT:ucph_content_header/Resources/Private/Partials/
+    layoutRootPaths.100 = EXT:ucph_content_header/Resources/Private//Layouts/
 }

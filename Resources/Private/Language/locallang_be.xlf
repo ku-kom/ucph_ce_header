@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-    <file source-language="en" datatype="plaintext" original="EXT:ucph_ce_header/Resources/Private/Language/locallang_be.xlf" date="2023-06-21T10:27:00Z" product-name="ucph_ce_header">
+    <file source-language="en" datatype="plaintext" original="EXT:ucph_content_header/Resources/Private/Language/locallang_be.xlf" date="2023-06-21T10:27:00Z" product-name="ucph_content_header">
         <header>
             <authorName>Nanna Ellegaard</authorName>
             <authorEmail>nel@adm.ku.dk</authorEmail>
         </header>
         <body>
-        <trans-unit id="ucph_ce_header_title">
+        <trans-unit id="ucph_content_header_title">
             <source>Header only</source>
         </trans-unit>
-        <trans-unit id="ucph_ce_header_desc">
+        <trans-unit id="ucph_content_header_desc">
             <source>Adds a header only.</source>
         </trans-unit>
-        <trans-unit id="ucph_ce_header_type">
+        <trans-unit id="ucph_content_header_type">
             <source>Header type</source>
         </trans-unit>
-        <trans-unit id="ucph_ce_header_default">
+        <trans-unit id="ucph_content_header_default">
             <source>Normal text - no semantic header</source>
         </trans-unit>
-        <trans-unit id="ucph_ce_header_h6">
+        <trans-unit id="ucph_content_header_h6">
             <source>H6</source>
         </trans-unit>
-        <trans-unit id="ucph_ce_header_hidden">
+        <trans-unit id="ucph_content_header_hidden">
             <source>Unset</source>
         </trans-unit>
-        <trans-unit id="ucph_ce_header_devider">
+        <trans-unit id="ucph_content_header_devider">
             <source>Header divider</source>
         </trans-unit>
         </body>
