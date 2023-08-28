@@ -99,10 +99,10 @@ call_user_func(function ($extKey ='ucph_content_header', $contentType ='ucph_con
     ];
 });
 
- // Override header palette globally
+// Override header palette globally
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addToAllTCAtypes(
-    'tt_content', 
-    'headers', 
-    '', 
+    'tt_content',
+    'headers',
+    '',
     'after:CType'
 );
