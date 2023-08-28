@@ -18,9 +18,6 @@
         <trans-unit id="ucph_content_header_default">
             <source>Normal text - no semantic header</source>
         </trans-unit>
-        <trans-unit id="ucph_content_header_h6">
-            <source>H6</source>
-        </trans-unit>
         <trans-unit id="ucph_content_header_hidden">
             <source>Unset</source>
         </trans-unit>
