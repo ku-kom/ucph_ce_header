@@ -3,7 +3,7 @@ TCEFORM {
         // Global settings
         header_layout {
             // Remove h1 and 'hidden'
-            //removeItems = 1, 100
+            removeItems = 1, 100
         }
     }
 }
