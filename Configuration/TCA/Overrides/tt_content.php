@@ -4,13 +4,12 @@
  * This file is part of the package ucph_content_header.
  * For the full copyright and license information, please read the
  * LICENSE file that was distributed with this source code.
- * June 2023 Nanna Ellegaard, University of Copenhagen.
+ * Sept 2023, University of Copenhagen.
  */
 declare(strict_types=1);
 defined('TYPO3') or die();
 
 call_user_func(function ($extKey ='ucph_content_header', $contentType ='ucph_content_header') {
-    // Adds the content element to the "Type" dropdown
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTcaSelectItem(
         'tt_content',
         'CType',
@@ -24,7 +23,7 @@ call_user_func(function ($extKey ='ucph_content_header', $contentType ='ucph_con
         'after'
     );
 
-    // Header styles config
+    // Header styles config:
     // Remove h1 and 'hidden'
     unset($GLOBALS['TCA']['tt_content']['columns']['header_layout']['config']['items']['1']);
     unset($GLOBALS['TCA']['tt_content']['columns']['header_layout']['config']['items']['6']);
