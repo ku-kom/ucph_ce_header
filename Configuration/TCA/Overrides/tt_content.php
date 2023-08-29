@@ -24,12 +24,15 @@ call_user_func(function ($extKey ='ucph_content_header', $contentType ='ucph_con
     );
 
     // Header styles config:
-    // Remove h1 and 'hidden'
-    unset($GLOBALS['TCA']['tt_content']['columns']['header_layout']['config']['items']['1']);
-    unset($GLOBALS['TCA']['tt_content']['columns']['header_layout']['config']['items']['6']);
+    // Rename header label:
+    $GLOBALS['TCA']['tt_content']['columns']['header']['label'] = 'LLL:EXT:ucph_content_header/Resources/Private/Language/locallang_be.xlf:ucph_content_header';
 
     // Rename header_layout label:
     $GLOBALS['TCA']['tt_content']['columns']['header_layout']['label'] = 'LLL:EXT:ucph_content_header/Resources/Private/Language/locallang_be.xlf:ucph_content_header_type';
+    
+    // Remove h1 and 'hidden'
+    unset($GLOBALS['TCA']['tt_content']['columns']['header_layout']['config']['items']['1']);
+    unset($GLOBALS['TCA']['tt_content']['columns']['header_layout']['config']['items']['6']);
 
     // Rename default label
     $GLOBALS['TCA']['tt_content']['columns']['header_layout']['config']['items']['0']['0'] = 'LLL:EXT:ucph_content_header/Resources/Private/Language/locallang_be.xlf:ucph_content_header_default';
@@ -54,13 +57,13 @@ call_user_func(function ($extKey ='ucph_content_header', $contentType ='ucph_con
 
     // Add header divider
     $GLOBALS['TCA']['tt_content']['columns']['header_layout']['config']['items'][] = [
-        'LLL:EXT:ucph_content_header/Resources/Private/Language/locallang_be.xlf:ucph_content_header_devider',
+        'LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_be.xlf:ucph_content_header_devider',
         '150'
     ];
 
     // Add hidden
     $GLOBALS['TCA']['tt_content']['columns']['header_layout']['config']['items'][] = [
-        'LLL:EXT:ucph_content_header/Resources/Private/Language/locallang_be.xlf:ucph_content_header_hidden',
+        'LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_be.xlf:ucph_content_header_hidden',
         '170'
     ];
 

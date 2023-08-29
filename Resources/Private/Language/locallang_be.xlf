@@ -13,7 +13,10 @@
             <source>Adds a header only.</source>
         </trans-unit>
         <trans-unit id="ucph_content_header_type">
-            <source>Header type</source>
+            <source>Content header type</source>
+        </trans-unit>
+        <trans-unit id="ucph_content_header">
+            <source>Content header</source>
         </trans-unit>
         <trans-unit id="ucph_content_header_default">
             <source>Normal text - no semantic header</source>
