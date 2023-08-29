@@ -19,7 +19,7 @@
             <source>Normal text - no semantic header</source>
         </trans-unit>
         <trans-unit id="ucph_content_header_hidden">
-            <source>Unset</source>
+            <source>Hidden</source>
         </trans-unit>
         <trans-unit id="ucph_content_header_devider">
             <source>Header divider</source>
