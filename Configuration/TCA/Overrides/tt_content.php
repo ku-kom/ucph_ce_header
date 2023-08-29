@@ -25,10 +25,9 @@ call_user_func(function ($extKey ='ucph_content_header', $contentType ='ucph_con
     );
 
     // Header styles config
-    
     // Remove h1 and 'hidden'
-    // $GLOBALS['TCA']['tt_content']['columns']['header_layout']['config']['items']['1'] = [''];
-    // $GLOBALS['TCA']['tt_content']['columns']['header_layout']['config']['items']['6'] = [''];
+    unset($GLOBALS['TCA']['tt_content']['columns']['header_layout']['config']['items']['1']);
+    unset($GLOBALS['TCA']['tt_content']['columns']['header_layout']['config']['items']['6']);
 
     // Rename header_layout label:
     $GLOBALS['TCA']['tt_content']['columns']['header_layout']['label'] = 'LLL:EXT:ucph_content_header/Resources/Private/Language/locallang_be.xlf:ucph_content_header_type';
